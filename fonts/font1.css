@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'NexaBold';
+  src: url('NexaBold.eot');
+  src: url('NexaBold.eot?#iefix') format('embedded-opentype'),
+       url('NexaBold.svg#NexaBold') format('svg'),
+       url('NexaBold.ttf') format('truetype'),
+       url('NexaBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

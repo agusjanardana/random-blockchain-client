@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight.eot');
+    src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaLight.svg#NexaLight') format('svg'), url('..fonts/NexaLight.ttf') format('truetype'),
+        url('../fonts/NexaLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold.eot');
+    src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBold.svg#NexaBold') format('svg'), url('../fonts/NexaBold.ttf') format('truetype'),
+        url('../fonts/NexaBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home {
+    width: 12%;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+.bg-dark {
+    background-color: #2d2d2d !important;
+}
+
+.bg-black {
+    background-color: #191919;
+}
+
+.logo {
+    margin-left: 2.2rem;
+}
+
+.images-nft1 {
+    padding: 4rem;
+}
+
+.image-title {
+    font-family: 'NexaBold';
+    position: relative;
+    color: #115160;
+    font-size: 1.5rem;
+    top: 5rem;
+    left: 4rem;
+}
+
+.nft-images {
+}

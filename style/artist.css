@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight.eot');
+    src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaLight.svg#NexaLight') format('svg'), url('..fonts/NexaLight.ttf') format('truetype'),
+        url('../fonts/NexaLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold.eot');
+    src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBold.svg#NexaBold') format('svg'), url('../fonts/NexaBold.ttf') format('truetype'),
+        url('../fonts/NexaBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-dark {
+    background-color: #2d2d2d !important;
+}
+
+.bg-black {
+    background-color: #191919;
+}
+.form-control {
+    border: 0;
+}
+
+.logo {
+    margin-left: 2.2rem;
+}
+
+.top-img {
+    max-width: 40%;
+    max-height: 30%;
+    display: block;
+    object-fit: cover;
+
+    object-position: center;
+    position: relative;
+}
+
+.home {
+    width: 12%;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+.navbar-bg {
+    background-color: white;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+}

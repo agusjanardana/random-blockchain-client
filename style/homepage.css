@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight.eot');
+    src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaLight.svg#NexaLight') format('svg'), url('..fonts/NexaLight.ttf') format('truetype'),
+        url('../fonts/NexaLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold.eot');
+    src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBold.svg#NexaBold') format('svg'), url('../fonts/NexaBold.ttf') format('truetype'),
+        url('../fonts/NexaBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-dark {
+    background-color: #2d2d2d !important;
+}
+
+.bg-black {
+    background-color: #191919;
+}
+.form-control {
+    border: 0;
+}
+
+.logo {
+    margin-left: 2.2rem;
+}
+
+h1 {
+    font-family: 'NexaBold', sans-serif;
+    font-size: 5rem;
+}
+
+.img-right {
+    padding: 1rem;
+    width: 40rem;
+    margin-left: 8rem;
+}
+
+.line {
+    background-color: #237087;
+    width: 43rem;
+    height: 5px;
+    margin-top: 2rem;
+}
+.text-box {
+    margin-top: 3rem;
+}
+.text-content-left {
+    width: 50rem;
+    text-wrap: break-word;
+    font-size: 40px;
+    font-family: 'NexaBold';
+    color: white;
+}
+
+.button-wrapper > button {
+    background-color: #115160;
+    color: white;
+    font-family: 'NexaBold';
+    border-radius: 10px;
+    width: 35rem;
+    height: 4rem;
+    font-size: 25px;
+}
+
+.home {
+    width: 12%;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+a {
+    font-family: 'NexaBold';
+}
