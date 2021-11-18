@@ -149,3 +149,9 @@ hr {
     position: sticky;
   top: 0;
 }
+.images-bold {
+    position: absolute;
+    bottom: 80%;
+    height: 50px;
+    width: 50px;
+}

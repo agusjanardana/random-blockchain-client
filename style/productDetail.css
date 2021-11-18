@@ -36,7 +36,10 @@
 }
 
 .images-nft1 {
-    padding: 4rem;
+    padding: 1rem;
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 3rem;
 }
 
 .image-title {
@@ -44,9 +47,175 @@
     position: relative;
     color: #115160;
     font-size: 1.5rem;
-    top: 5rem;
+    top: 3rem;
     left: 4rem;
 }
 
 .nft-images {
+    margin-top: 3rem;
+}
+
+.card {
+    background-color: #2d2d2d;
+    border: 0;
+    width: 50rem;
+    height: 55rem;
+    border-radius: 2rem;
+    margin-top: 1.8rem;
+    margin-right: 5rem;
+    font-family: 'NexaBold';
+}
+
+.card-title {
+    color: white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.card-sale {
+    color: #115160;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
+}
+
+.card-sale > span {
+    color: white;
+}
+
+.like-button > img {
+    width: 2rem;
+}
+
+.like-button > p {
+    font-size: 1.5rem;
+    font-family: 'NexaBold';
+    color: white;
+    margin-top: 14px;
+    margin-left: 8px;
+}
+
+.button-wrapper {
+    padding-left: 2rem;
+}
+
+.view-button > img {
+    width: 3.5rem;
+    margin-left: 2rem;
+}
+
+.view-button > p {
+    color: white;
+    font-family: 'NexaBold';
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.card-description > p {
+    text-wrap: break-word;
+}
+
+.card-description > p {
+    color: white;
+    font-size: 2rem;
+    width: 78%;
+    padding-left: 2rem;
+    margin-top: 15px;
+    font-family: 'NexaBold';
+}
+
+.credit-creat {
+    margin-top: 1.8rem;
+}
+.creator > p {
+    color: white;
+    font-family: 'NexaBold';
+    padding-left: 2rem;
+    font-size: 1.5em;
+}
+.img-creator {
+    padding-left: 2rem;
+}
+.img-creator > img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.img-creator > p {
+    color: #115160;
+    font-size: 1.5em;
+    font-family: 'NexaBold';
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.collection {
+    margin-left: 9rem;
+}
+.collection > p {
+    color: white;
+    font-family: 'NexaBold';
+    padding-left: 2rem;
+    font-size: 1.5em;
+}
+
+.table-information {
+    font-family: 'NexaBold';
+}
+
+tr > th {
+    color: white;
+    font-size: 1rem;
+}
+
+.table-information {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+tr > td {
+    color: #115160;
+    font-family: 'NexaBold';
+    font-size: 1em;
+}
+
+.button-mint {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    display: flex;
+}
+
+.btn {
+    color: white;
+    background-color: #115160;
+    width: 100%;
+    height: 3rem;
+}
+
+.buy-now {
+    width: 35%;
+}
+.bid-now {
+    width: 35%;
+    margin-left: 8rem;
+}
+
+.priced {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.priced > span {
+    color: #115160;
+}
+
+.bid {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.bid > span {
+    color: #115160;
 }
