@@ -18,6 +18,9 @@
     font-style: normal;
 }
 
+.selected{
+    color : #115160;
+}
 .bg-dark {
     background-color: #2d2d2d !important;
 }
@@ -34,26 +37,115 @@
 }
 
 .top-img {
-    max-width: 40%;
+    max-width: 30%;
     max-height: 30%;
-    display: block;
-    object-fit: cover;
-
+    z-index: -100;
     object-position: center;
     position: relative;
 }
 
-.home {
+.symbol {
     width: 12%;
     margin-bottom: 3px;
     margin-right: 5px;
 }
 
+
 .navbar-bg {
     background-color: white;
     width: 100%;
+    background: url('../assets/wallpapah-hattartworks.jpg');
+    height: 100%;
 }
 
 .container-fluid {
     padding-left: 0 !important;
+}
+
+.profile-img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left : 15%;
+    bottom: 60%;
+    border-radius: 50%;
+    border : 10px solid #FFF;
+    background-color: #191919;
+}
+
+.artist-name {
+    color: #FFF;
+}
+
+
+
+.artist-category {
+    color : #115160;
+}
+
+.artist-desc {
+    position: absolute;
+    left : 27%;
+    font-family: 'NexaBold';
+}
+
+.artist-intro {
+    position: absolute;
+    top : 45%;
+    left: 15%;
+    max-width: 100%;
+    font-family: 'NexaBold';
+}
+
+.artist-intro-msg {
+    color: #FFF;
+}
+.artist-art-category{
+    color: #FFF;
+    white-space: nowrap;
+}
+
+.artist-right{
+    position: absolute;
+    top : 35%;
+    right : 10%;
+}
+input {
+    width: 300px;
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    border: none;
+}
+.twitter {
+    max-height: 17px;
+}
+
+.dropdown-small{
+    max-height: 15px;
+}
+
+hr {
+    border: 2px solid #115160;
+    margin-right: 5%;
+    margin-left: 4%;
+    margin-top:23%
+}
+
+.row {
+    margin-left: 6%;
+
+}
+
+.card-body{
+    background-color: #191919 !important;
+}
+
+.card-text {
+    color: #FFF;
+    font-family: 'NexaBold';
+}
+
+.sticky{
+    position: sticky;
+  top: 0;
 }
