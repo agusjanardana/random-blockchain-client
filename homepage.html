@@ -44,7 +44,7 @@
                     </li>
                 </ul>
                 <div class="footer-nav">
-                    <p>About Us</p>
+                    <p id="sign-out" class="btn-signout">Sign Out</p>
                 </div>
                 <hr />
             </div>
@@ -87,8 +87,18 @@
         </div>
 
         <script>
+            /* window.onload = function () {
+                if (window.jQuery) {
+                    // jQuery is loaded
+                    alert('Yeah!');
+                } else {
+                    // jQuery is not loaded
+                    alert("Doesn't Work");
+                }
+            };*/
             // here is moralis configuration
             // connect to Moralis server
+
             const serverUrl = 'https://kvawcf0oeok9.usemoralis.com:2053/server';
             const appId = 'meowX8KX2RiJUgiSKYLNKJFH9JL9eTljwcaKcEKB';
             Moralis.start({ serverUrl, appId });
@@ -106,7 +116,23 @@
                     user = await Moralis.authenticate();
                 }
                 console.log('logged in user:', user);
+
+                window.location.reload();
             });
+
+            $('#sign-out').click(async () => {
+                await Moralis.User.logOut();
+                alert('logged out!');
+                window.location.reload();
+            });
+
+            //jika tidak ada user login, maka tombol signout tidak di tampilkan sign-out
+            const currentUser = Moralis.User.current();
+            if (currentUser) {
+                $('#sign-out').show();
+            } else {
+                $('#sign-out').hide();
+            }
         </script>
 
         <script

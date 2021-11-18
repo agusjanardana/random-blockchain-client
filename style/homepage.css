@@ -80,3 +80,14 @@ h1 {
 a {
     font-family: 'NexaBold';
 }
+
+#sign-out {
+    color: white;
+    font-family: 'NexaBold';
+    padding-left: 2rem;
+}
+
+#sign-out:hover {
+    color: #115160;
+    cursor: pointer;
+}
