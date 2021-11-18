@@ -1,0 +1,2 @@
+RandomBlocks Contract Address : 0xB680aD8186Ee7A230b6d16aa893f4a093CEc7E1a
+Marketplace Contract Address : 0x2Ab46bad11f9E3f6cFcc59Ca9677e21993e8C4dB
