@@ -11,6 +11,14 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="./style/homepage.css" />
+        <!-- Moralis SDK code -->
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.js"
+            integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+            crossorigin="anonymous"
+        ></script>
         <title>Random Blocks</title>
     </head>
     <body>
@@ -65,7 +73,7 @@
                                     </p>
                                 </div>
                                 <div class="button-wrapper">
-                                    <button type="button" class="btn">Explore Artist and NFT</button>
+                                    <button id="login" type="button" class="btn">Explore Artist and NFT</button>
                                 </div>
                             </div>
                             <div class="right-side">
@@ -76,6 +84,29 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            // here is moralis configuration
+            // connect to Moralis server
+            const serverUrl = 'https://kvawcf0oeok9.usemoralis.com:2053/server';
+            const appId = 'meowX8KX2RiJUgiSKYLNKJFH9JL9eTljwcaKcEKB';
+            Moralis.start({ serverUrl, appId });
+
+            // add from here down
+            async function logOut() {
+                await Moralis.User.logOut();
+                console.log('logged out');
+            }
+
+            $('#login').click(async () => {
+                console.log('clilcked');
+                let user = Moralis.User.current();
+                if (!user) {
+                    user = await Moralis.authenticate();
+                }
+                console.log('logged in user:', user);
+            });
+        </script>
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
